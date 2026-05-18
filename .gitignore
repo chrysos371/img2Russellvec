@@ -5,3 +5,4 @@ rawCsv/
 processedCsv/
 slicedCsv/
 img/
+__pycache__/
