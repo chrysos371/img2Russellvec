@@ -6,7 +6,7 @@
  - [x] 处理图片 扩图加色彩
  - [ ] 心理学先验映射
 
-#清洗步骤  
+## 清洗步骤  
 - 准备三个文件夹 rawCsv slicedCsv processedCsv
 - 然后将原始数据放入 rawCsv
 - 使用 CLI_SliceCsv.py 得到切割后的数个Csv表格，用法在工具里边
