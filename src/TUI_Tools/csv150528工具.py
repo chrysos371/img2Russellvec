@@ -10,7 +10,8 @@ os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
 
 # 1. 按要求编写兼容导入
 try:
-    import 浪兮工具包.辅助工具.目录构建 as lxpb
+    pass
+    #import 浪兮工具包.辅助工具.目录构建 as lxpb
 except:
     try:
         import 目录构建 as lxpb
@@ -29,7 +30,7 @@ TOOL_NAME = "csv150528工具"
 try:
     BASE_RES_DIR = lxpb.R_DIR
 except:
-    BASE_RES_DIR = None
+    BASE_RES_DIR = os.path.dirname(os.path.abspath(__file__))
 TOOL_ROOT = os.path.join(BASE_RES_DIR, "图片资源", TOOL_ID)
 DEFAULT_CSV_FOLDER = os.path.join(TOOL_ROOT, "csv")
 DEFAULT_EXPORT_ROOT = os.path.join(TOOL_ROOT, "灰度图")
